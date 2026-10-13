@@ -567,6 +567,20 @@ a:hover { color: var(--petrol-dark); }
 .contact-card dd { margin: 0; color: var(--ink-soft); }
 .contact-card a { min-width: 0; min-height: 0; }
 
+/* Contact details rendered on dark sections (no white card behind them) */
+.section-dark .contact-right h3 { color: #fff; }
+.section-dark .contact-right .contact-owner { color: #e9dcc6; }
+.section-dark .contact-right a:not(.btn) { color: #9fd4f5; }
+.section-dark .contact-right a:not(.btn):hover { color: #fff; }
+.section-dark .contact-note a { color: #9fd4f5; }
+.section-dark .contact-note a:hover { color: #fff; }
+.section-dark .contact-right .btn-outline { border-color: rgba(255, 255, 255, 0.6); color: #fff; }
+.section-dark .contact-right .btn-outline:hover { background: #fff; color: var(--petrol-dark); border-color: #fff; }
+
+/* Hints inside white contact cards must not use the on-dark colors */
+.contact-card .contact-form-hint { color: var(--ink-soft); }
+.contact-card .contact-form-hint a { color: var(--petrol); }
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: #011827;

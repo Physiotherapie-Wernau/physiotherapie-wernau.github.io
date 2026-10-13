@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impressum – Praxis für Physiotherapie Schimann, Wernau (Neckar)</title>
-  <meta name="description" content="Impressum der Praxis für Physiotherapie Schimann in Wernau (Neckar), Bahnhofsplatz 9.">
+  <title>Impressum – Praxis für Physiotherapie Schimann in Wernau (Neckar)</title>
+  <meta name="description" content="Impressum: Angaben gemäß § 5 TMG, Inhaberung, Anschrift, Kontaktadressen.">
   <meta property="og:title" content="Impressum – Praxis für Physiotherapie Schimann, Wernau (Neckar)">
+  <meta property="og:description" content="Angaben gemäß § 5 TMG, Inhaberung, Anschrift, Kontaktadressen.">
+  <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23035084'/%3E%3Cpath d='M16 6c-3.5 3-5 6-5 9.5S13 23 16 26c3-3 5-6.5 5-10.5S19.5 9 16 6z' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="index.html">
+  <link rel="preconnect" href="index.html" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -37,9 +39,9 @@
         <ul>
           <li><a href="index.html">Start</a></li>
           <li><a href="praxis.html">Praxis</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
           <li><a href="therapie.html">Therapie</a></li>
           <li><a href="team.html">Team</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
           <li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
@@ -53,36 +55,42 @@
 
   <main id="main">
 
+    <!-- ===================== Impressum ===================== -->
     <section class="section section-alt" id="impressum">
       <div class="container narrow">
         <p class="eyebrow reveal">Rechtliches</p>
-        <h2 class="reveal">Impressum</h2>
+        <h2 class="reveal" id="impressum">Impressum</h2>
         <p class="lead reveal">
-          Die folgenden Angaben in gefälscht gebildeter Form entsprechen der
-          gesetzlichen Pflicht nach § 5 Telemedien-Diensteanbieter-Gesetz (TMG).
+          Angaben gemäß § 5 Telemediengesetz (TMG).
         </p>
 
-        <div class="callout reveal">
-          <p>
-            Praxis für Physiotherapie Schimann<br>
-            Bahnhofsplatz 9<br>
-            73249 Wernau (Neckar)
-          </p>
-        </div>
+        <dl>
+          <dt>Inhaber</dt>
+          <dd>
+            <p>
+              <strong>Praxis für Physiotherapie Schimann</strong><br>
+              Timofei Schimann
+            </p>
+            <p>
+              Bahnhofsplatz 9<br>
+              73249 Wernau (Neckar)
+            </p>
+          </dd>
+          <dt>Telefon</dt>
+          <dd><a href="tel:+49715337992">+49 7153 37992</a></dd>
+          <dt>Telefax</dt>
+          <dd>07153 6121972</dd>
+          <dt>E-Mail</dt>
+          <dd><a href="mailto:physiospirit@gmx.net">physiospirit@gmx.net</a></dd>
+        </dl>
 
         <div class="callout reveal">
           <p>
-            <strong>Kontakt:</strong><br>
-            Telefon: +49 7153 37992<br>
-            Telefax: 07153 6121972<br>
-            E-Mail: physiospirit@gmx.net
+            Für dichte Inhalte, Texte, Bilder und sonstige Werke, die auf dieser Website
+            veröffentlicht sind, gelten die Vorschriften des Urheberrechts. Die
+            Inhaberrechte an den Werken liegen bei der Praxis für Physiotherapie Schimann,
+            soweit nicht anderweitig angegeben.
           </p>
-        </div>
-
-        <div class="callout reveal">
-          <p><strong>Durchnummerung:</strong> § 5 TMG</p>
-          <p><strong>Ausnahme:</strong> Wenn Sie über die Website Kontakt aufnehmen.</p>
-          <p><strong>Stand:</strong> Oktober 2026</p>
         </div>
       </div>
     </section>
@@ -107,10 +115,21 @@
         <a href="sitemap.html">Sitemap</a>
         <a href="index.html">Start</a>
       </nav>
-      <p class="footer-copy">&copy; <span id="year">2026</span> Praxis für Physiotherapie</p>
+      <p class="footer-copy">&copy; <span id="year">2026</span> Praxis für Physiotherapie Schimann</p>
     </div>
   </footer>
 
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Bildergalerie" hidden>
+    <button class="lightbox-close" aria-label="Schließen">&times;</button>
+    <button class="lightbox-prev" aria-label="Vorheriges Bild">&#10094;</button>
+    <figure>
+      <img src="" alt="Bildgalerie">
+      <figcaption>Bild <span class="current">1</span> von <span class="total">8</span></figcaption>
+    </figure>
+    <button class="lightbox-next" aria-label="Nächstes Bild">&#10095;</button>
+  </div>
+
   <script src="script.js"></script>
+
 </body>
 </html>

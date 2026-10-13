@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galerie – Praxis für Physiotherapie Schimann, Wernau (Neckar)</title>
-  <meta name="description" content="Virtueller Rundgang durch die Praxis für Physiotherapie Schimann in Wernau (Neckar) – Einblick in die Behandlungs- und Übungsräume.">
+  <title>Galerie – Praxis für Physiotherapie Schimann in Wernau (Neckar)</title>
+  <meta name="description" content="Ein virtueller Rundgang durch die Praxis für Physiotherapie Schimann in Wernau (Neckar).">
   <meta property="og:title" content="Galerie – Praxis für Physiotherapie Schimann, Wernau (Neckar)">
-  <meta property="og:description" content="Virtueller Rundgang durch die Räume der Praxis für Physiotherapie Schimann in Wernau (Neckar).">
+  <meta property="og:description" content="Ein virtueller Rundgang durch die Räume der Praxis für Physiotherapie Schimann in Wernau (Neckar).">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23035084'/%3E%3Cpath d='M16 6c-3.5 3-5 6-5 9.5S13 23 16 26c3-3 5-6.5 5-10.5S19.5 9 16 6z' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="index.html">
+  <link rel="preconnect" href="index.html" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -39,9 +39,9 @@
         <ul>
           <li><a href="index.html">Start</a></li>
           <li><a href="praxis.html">Praxis</a></li>
-          <li><a href="galerie.html" class="active">Galerie</a></li>
           <li><a href="therapie.html">Therapie</a></li>
           <li><a href="team.html">Team</a></li>
+          <li><a href="galerie.html" class="active">Galerie</a></li>
           <li><a href="oeffnungszeiten.html">Öffnungszeiten</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
@@ -55,60 +55,82 @@
 
   <main id="main">
 
-    <!-- ===================== Hero ===================== -->
-    <section class="hero">
-      <div class="hero-bg" role="img" aria-label="Praxis für Physiotherapie Schimann in Wernau"></div>
-      <div class="hero-overlay"></div>
-      <div class="container hero-content">
-        <p class="eyebrow light">Bildergalerie</p>
-        <h1>Virtueller Rundgang</h1>
-        <p class="hero-lead">
-          Unsere Räume sind hell, freundlich und modern ausgestattet &ndash; laden
-          Sie sich gerne virtuell bei uns ein.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary btn-lg" href="#galerie">Beginnen</a>
-          <a class="btn btn-ghost btn-lg" href="index.html">Zur Startseite</a>
-        </div>
+    <!-- ===================== Galerie-Hero ===================== -->
+    <section class="hero" id="start">
+      <div class="hero-bg" role="img" aria-label="Einblick in die Praxis für Physiotherapie Schimann in Wernau" style="background-image:url('assets/img%20(8).jpeg');">
       </div>
-      <div class="hero-scroll" aria-hidden="true"><span></span></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <p class="eyebrow light">Rundgang</p>
+        <h1>Galerie – Ein virtueller Rundgang</h1>
+        <p class="hero-lead">
+          Werfen Sie einen Blick in unsere Praxis. Unsere Räume sind auf Sie
+          zugeschnitten, ruhig und beruhigend.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#galerie">Bildergalerie</a>
+      </div>
     </section>
 
-    <!-- ===================== Gallery ===================== -->
+    <!-- ===================== Bildergalerie ===================== -->
     <section class="section section-alt" id="galerie">
       <div class="container">
-        <div class="gallery">
-          <button class="gallery-item reveal" data-index="0"><img src="assets/img%20(1).jpeg" alt="Praxisraum – Foto 1 von 8" loading="lazy" width="1600" height="1279"></button>
-          <button class="gallery-item reveal tall" data-index="1"><img src="assets/img%20(3).jpeg" alt="Praxisraum – Foto 2 von 8" loading="lazy" width="1200" height="1600"></button>
-          <button class="gallery-item reveal" data-index="2"><img src="assets/img%20(2).jpeg" alt="Praxisraum – Foto 3 von 8" loading="lazy" width="1600" height="1022"></button>
-          <button class="gallery-item reveal" data-index="3"><img src="assets/img%20(4).jpeg" alt="Praxisraum – Foto 4 von 8" loading="lazy" width="1600" height="1021"></button>
-          <button class="gallery-item reveal" data-index="4"><img src="assets/img%20(5).jpeg" alt="Praxisraum – Foto 5 von 8" loading="lazy" width="1600" height="1079"></button>
-          <button class="gallery-item reveal tall" data-index="5"><img src="assets/img%20(6).jpeg" alt="Praxisraum – Foto 6 von 8" loading="lazy" width="1600" height="1432"></button>
-          <button class="gallery-item reveal" data-index="6"><img src="assets/img%20(7).jpeg" alt="Praxisraum – Foto 7 von 8" loading="lazy" width="1600" height="1200"></button>
-          <button class="gallery-item reveal wide" data-index="7"><img src="assets/img%20(8).jpeg" alt="Praxisraum – Foto 8 von 8" loading="lazy" width="1600" height="716"></button>
+        <p class="eyebrow reveal">Bildergalerie</p>
+        <h2 class="reveal" id="galerie">Ein virtueller Rundgang</h2>
+        <p class="lead reveal">
+          Wählen Sie ein Bild aus der Galerie, um nähere Einblicke zu bekommen.
+        </p>
+
+        <div class="gallery" id="gallery" aria-label="Album: Ein virtueller Rundgang in unsere Praxis">
+          <button class="gallery-item reveal" data-index="0" aria-label="Foto 1: praktische Übungszone"><img src="assets/img%20(1).jpeg" alt="Bild 1: Übungsbereich mit Therabändern benutzt" loading="lazy" width="1600" height="1279"></button>
+          <button class="gallery-item reveal tall" data-index="1" aria-label="Foto 2: Therapieräume"><img src="assets/img%20(3).jpeg" alt="Bild 2: Therapiegeräte und Übungsbereich" loading="lazy" width="1200" height="1600"></button>
+          <button class="gallery-item reveal" data-index="2" aria-label="Foto 3: Behandlungsbereich"><img src="assets/img%20(2).jpeg" alt="Bild 3: Therapieräume mit Wahlscheinturnhalle" loading="lazy" width="1600" height="1022"></button>
+          <button class="gallery-item reveal" data-index="3" aria-label="Foto 4: Behandlungsbereich"><img src="assets/img%20(4).jpeg" alt="Bild 4: Therapiegeräte und Übungsbereich" loading="lazy" width="1600" height="1021"></button>
+          <button class="gallery-item reveal" data-index="4" aria-label="Foto 5: Therapiepuffer und Therapieräume"><img src="assets/img%20(5).jpeg" alt="Bild 5: Therapieraumbild Wartung sportinternalsch" loading="lazy" width="1600" height="1079"></button>
+          <button class="gallery-item reveal tall" data-index="5" aria-label="Foto 6: Therapiepuffer"><img src="assets/img%20(6).jpeg" alt="Bild 6: Therapieraumbild Wartende Therapieübung" loading="lazy" width="1600" height="1432"></button>
+          <button class="gallery-item reveal" data-index="6" aria-label="Foto 7: Therapieraum"><img src="assets/img%20(7).jpeg" alt="Bild 7: Therapieraumbild Wartung Sportinternalsch" loading="lazy" width="1600" height="1200"></button>
+          <button class="gallery-item reveal wide" data-index="7" aria-label="Foto 8: Therapieraum und Angespannter"><img src="assets/img%20(8).jpeg" alt="Bild 8: Therapieraum für Ergotherapie und Yogastunde" loading="lazy" width="1600" height="716"></button>
+        </div>
+
+        <div class="callout reveal">
+          <p>
+            Unsere Räume sind für Sie da: Besuchen Sie uns in der
+            <a href="oeffnungszeiten.html">Öffnungszeiten</a> und rufen Sie bei
+            <a href="kontakt.html">Kontakt</a> an.
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- ===================== Impressum ===================== -->
-    <section class="section" id="impressum">
+    <!-- ===================== Rechts- / Footer-Bariere ===================== -->
+    <section class="section section-dark" id="kontakt">
       <div class="container narrow">
-        <p class="eyebrow reveal">Rechtliches</p>
-        <h2 class="reveal">Impressum</h2>
-        <p class="lead reveal">
-          Die folgenden Angaben in gefälscht gebildeter Form entsprechen !
+        <p class="eyebrow light">Kontakt</p>
+        <h2 class="reveal" id="kontakt">Ihr Weg zu uns</h2>
+        <p class="lead light reveal">
+          Unsere Praxis steht Ihnen gerne zur Verfügung.
         </p>
-        <p>
-          Praxis für Physiotherapie Schimann<br>
-          Bahnhofsplatz 9<br>
-          73249 Wernau (Neckar)
+        <address class="contact-card reveal">
+          <h3>Praxis für Physiotherapie</h3>
+          <p class="contact-owner">Timofei Schimann</p>
+          <p>
+            Bahnhofsplatz 9<br>
+            73249 Wernau (Neckar)
+          </p>
+          <dl>
+            <dt>Telefon</dt><dd><a href="tel:+49715337992">+49 7153 37992</a></dd>
+            <dt>Telefax</dt><dd>07153 6121972</dd>
+            <dt>E-Mail</dt><dd><a href="mailto:physiospirit@gmx.net">physiospirit@gmx.net</a></dd>
+          </dl>
+          <a class="btn btn-outline" href="kontakt.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5.4-7-11a7 7 0 1 1 14 0c0 5.6-7 11-7 11z" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+            Kontaktformular öffnen
+          </a>
+        </address>
+        <p class="small reveal">
+          Die Praxis ist freitags von 08:00 bis 15:00 Uhr geöffnet; an allen anderen
+          Wochentagen bis früher, bitte nutzen Sie die Seite
+          <a href="oeffnungszeiten.html">Öffnungszeiten</a>.
         </p>
-        <p><strong>Tel.:</strong> +49 7153 37992<br>
-         <strong>Fax:</strong> 07153 6121972<br>
-         <strong>E-Mail:</strong> physiospirit@gmx.net</p>
-        <p class="small">Durchnummerierung: § 5 TMG<br>
-        Ausnahme: Wenn Sie über die Website Kontakt aufnehmen.</p>
-        <p class="small">Stand: Oktober 2026</p>
       </div>
     </section>
 
@@ -132,10 +154,21 @@
         <a href="sitemap.html">Sitemap</a>
         <a href="index.html">Start</a>
       </nav>
-      <p class="footer-copy">&copy; <span id="year">2026</span> Praxis für Physiotherapie</p>
+      <p class="footer-copy">&copy; <span id="year">2026</span> Praxis für Physiotherapie Schimann</p>
     </div>
   </footer>
 
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Bildergalerie" hidden>
+    <button class="lightbox-close" aria-label="Schließen">&times;</button>
+    <button class="lightbox-prev" aria-label="Vorheriges Bild">&#10094;</button>
+    <figure>
+      <img src="" alt="Bildgalerie">
+      <figcaption>Bild <span class="current">1</span> von <span class="total">8</span></figcaption>
+    </figure>
+    <button class="lightbox-next" aria-label="Nächstes Bild">&#10095;</button>
+  </div>
+
   <script src="script.js"></script>
+
 </body>
 </html>

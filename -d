@@ -1,0 +1,24 @@
+<template>
+<div class="shrink-0 overflow-hidden bg-white dark:bg-gray-950">
+  <div class="grid grid-cols-1 gap-4 p-4 sm:p-6 lg:p-8 inside">
+    <div class="rounded-xl border border-gray-200/80 bg-white shadow-sm ring-1 ring-gray-950/5 transition-all hover:-translate-y-0.5 hover:shadow-md">
+      <div class="flex flex-col gap-3 p-4 sm:p-5">
+        <div class="aspect-square w-12 shrink-0 self-start rounded-full bg-blue-50 px-3 py-1.5 text-sm font-semibold text-blue-700 ring-1 ring-inset ring-blue-950/20 sm:w-14 sm:self-center sm:text-base">WIP</div>
+        <div class="space-y-1.5">
+          <p class="text-sm font-semibold text-gray-900">Quick task</p>
+          <p class="text-sm text-gray-500">Something that needs attention.</p>
+        </div>
+      </div>
+    </div>
+    <div class="rounded-xl border border-gray-200/80 bg-white shadow-sm ring-1 ring-gray-950/5 transition-all hover:-translate-y-0.5 hover:shadow-md">
+      <div class="flex flex-col gap-3 p-4 sm:p-5">
+        <div class="aspect-square w-12 shrink-0 self-start rounded-full bg-amber-50 px-3 py-1.5 text-sm font-semibold text-amber-700 ring-1 ring-inset ring-amber-950/20 sm:w-14 sm:self-center sm:text-base">Backlog</div>
+        <div class="space-y-1.5">
+          <p class="text-sm font-semibold text-gray-900">Later item</p>
+          <p class="text-sm text-gray-500">Not now, but soon.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</template>

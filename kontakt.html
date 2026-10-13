@@ -9,8 +9,8 @@
   <meta property="og:description" content="Praxis für Physiotherapie Schimann, Bahnhofsplatz 9, 73249 Wernau (Neckar). Telefon: +49 7153 37992, Fax: 07153 6121972, E-Mail: physiospirit@gmx.net.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23035084'/%3E%3Cpath d='M16 6c-3.5 3-5 6-5 9.5S13 23 16 26c3-3 5-6.5 5-10.5S19.5 9 16 6z' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="index.html">
+  <link rel="preconnect" href="index.html" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -79,9 +79,9 @@
       <div class="container">
         <div class="contact-grid">
           <div>
-            <p class="eyebrow light">Ihre Ansprechpartner</p>
+            <p class="eyebrow">Ihre Ansprechpartner</p>
             <h2 class="reveal">Behandlung gewünscht?</h2>
-            <p class="lead light reveal">
+            <p class="lead reveal">
               Wir beraten Sie gerne persönlich und vereinbaren Ihren nächsten
               Termin – direkt, flexibel und mit einem Gespräch auf Augenhöhe.
             </p>
@@ -101,16 +101,16 @@
               <p class="contact-form-hint reveal">
                 Sie können uns auch
                 <a href="mailto:physiospirit@gmx.net">schreiben</a> oder das
-                <a href="https://www.physiotherapie-wernau.de/kontakt/" target="_blank" rel="noopener">Kontaktformular</a>
+                <a href="kontakt.html">Kontaktformular</a>
                 der Praxis nutzen.
               </p>
             </address>
           </div>
 
           <div>
-            <p class="eyebrow light">Öffnungszeiten</p>
+            <p class="eyebrow">Öffnungszeiten</p>
             <h2 class="reveal">Planen Sie Ihren Besuch</h2>
-            <p class="lead light reveal">
+            <p class="lead reveal">
               Zu folgenden Zeiten sind wir in unserer Praxis für Sie da:
             </p>
 
@@ -118,14 +118,15 @@
               <table>
                 <caption class="visually-hidden">Öffnungszeiten Physiotherapie</caption>
                 <tbody>
-                  <tr data-day="1"><th scope="row">Montag</th><td>8:00 &ndash; 20:00 Uhr</td></tr>
-                  <tr data-day="2"><th scope="row">Dienstag</th><td>8:00 &ndash; 19:00 Uhr</td></tr>
-                  <tr data-day="3"><th scope="row">Mittwoch</th><td>8:00 &ndash; 13:00 Uhr</td></tr>
-                  <tr data-day="4"><th scope="row">Donnerstag</th><td>8:00 &ndash; 19:00 Uhr</td></tr>
-                  <tr data-day="5"><th scope="row">Freitag</th><td>8:00 &ndash; 15:00 Uhr</td></tr>
+                  <tr data-day="1"><th scope="row">Montag</th><td>10:00 – 19:00 Uhr</td></tr>
+                  <tr data-day="2"><th scope="row">Dienstag</th><td>10:00 – 19:00 Uhr</td></tr>
+                  <tr data-day="3"><th scope="row">Mittwoch</th><td>10:00 – 19:00 Uhr</td></tr>
+                  <tr data-day="4"><th scope="row">Donnerstag</th><td>10:00 – 19:00 Uhr</td></tr>
+                  <tr data-day="5"><th scope="row">Freitag</th><td>10:00 – 14:00 Uhr</td></tr>
+                  <tr data-day="6"><th scope="row">Samstag</th><td>10:00 – 13:00 Uhr</td></tr>
                 </tbody>
               </table>
-              <p class="hours-note">oder nach Vereinbarung</p>
+              <p class="hours-note">Vollständige Öffnungszeiten auf der <a href="oeffnungszeiten.html">Übersichtsseite</a> oder nach Vereinbarung.</p>
             </div>
 
             <div class="map-block reveal">
@@ -193,9 +194,20 @@
         <a href="index.html">Start</a>
       </nav>
       <p class="footer-copy">&copy; <span id="year">2026</span> Praxis für Physiotherapie</p>
-    </div>
-  </footer>
+    </div>    </footer>
 
-  <script src="script.js"></script>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Bildergalerie" hidden>
+      <button class="lightbox-close" aria-label="Schließen">&times;</button>
+      <button class="lightbox-prev" aria-label="Vorheriges Bild">&#10094;</button>
+      <figure>
+        <img src="" alt="">
+        <figcaption>Bild <span class="current">1</span> von <span class="total">8</span></figcaption>
+      </figure>
+      <button class="lightbox-next" aria-label="Nächstes Bild">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
+
